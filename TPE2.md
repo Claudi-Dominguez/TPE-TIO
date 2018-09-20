@@ -19,7 +19,7 @@ El intérprete de Python y su biblioteca estándar, están a disposición de qui
 Es un lenguaje de programación el cual ofrece una fuerte estructura y soporte a programas grandes. Ofrece un chequeo de error más grande que *c*. Permite separar un programa en módulos los cuales pueden “reusarse” en otros programas; Posee una colección considerable de módulos en forma estándar, los cuales se pueden usar como base de programas para desarrolladores. Algunas de las cosas que estos módulos proveen son: Entrada/salida a archivos, llamadas al sistema, sockets, interfaz a sistemas de interfaces gráfica de usuario.
  
 ## Iteraciones:
-Se denomina iteración a aquel conjunto de instrucciones que se encuentran acotadas por un bloque repetitivo de acciones indicadas a través de comandos indicadas en el lenguaje Python. Las instrucciones por excelencia en este lenguaje pertenecen a los bloques *for* y *while*. Estos bloques poseen indentación para reconocer el bloque como tal.
+Se denomina iteración a aquel conjunto de instrucciones que se encuentran acotadas por un bloque repetitivo de acciones indicadas a través de comandos indicadas en el lenguaje Python. Las instrucciones por excelencia en este lenguaje pertenecen a los bloques *for* y *while*. Estos bloques poseen indentación para reconocer el bloque como tal. 
 
 Cuando iteramos sobre diccionarios, se pueden obtener al mismo tiempo la clave y su valor correspondiente usando el método *iteritems()* en python2, e *items()* en python3
 .
