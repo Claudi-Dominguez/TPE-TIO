@@ -6,6 +6,7 @@ Para empezar una vez entregado y explicado el trabajo, nos contactamos entre las
 ## Grupal:
 
 **Repositorio en github:** https://github.com/Claudi-Dominguez/TPE-TIO/
+
 **Ramas:** master* y master2*
 > El repositorio en Github fue creado mediante el usuario de una integrante del grupo. Dentro de la rama "master*" se encuentra archivos equivocados al trabajo especial, ya que no cumplen con los requisitos. Al notar las faltas hemos creado la rama "master2*" para resubir correctamente los archivos.
 
