@@ -1,4 +1,8 @@
-### Informe sobre Python:
+# Trabajo Practico Especial.
+
+_Le traemos un informe sobre Python, en el mismo podra encontrar de que se trata, para que sirve, como usarlo, entre otros. Este informe esta escrito en un archivo con extension ".md" y escrito en "Markdown" como requisito minimo del trabajo especial._
+
+## Informe sobre Python:
 
 Python es un lenguaje de programación esencial para los informáticos en desarrollo web.  Es un lenguaje dinámico que puede ser interpretado en varias plataformas, esto permite la creación de sitios web y aplicaciones multiplataforma como: **iOS, Android, Windows o Mac**. Python cuenta con una sintaxis **limpia, clara y altamente legible**. 
 Es conocido por su sencillez, este con pocas líneas de código se podrá programar algoritmos complejos con resultados satisfactorios. Es un lenguaje interpretado, lo cual da la posibilidad de ahorrar al informático mucho tiempo durante el desarrollo ya que no es necesario compilar ni enlazar. 
