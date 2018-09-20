@@ -1,4 +1,4 @@
-# Trabajo Practico Especial.
+﻿# Trabajo Practico Especial.
 
 _Le traemos un informe sobre Python, en el mismo podra encontrar de que se trata, para que sirve, como usarlo, entre otros. Este informe esta escrito en un archivo con extension ".md" y escrito en "Markdown" como requisito minimo del trabajo especial._
 
@@ -21,7 +21,7 @@ Es un lenguaje de programación el cual ofrece una fuerte estructura y soporte a
 ## Iteraciones:
 Se denomina iteración a aquel conjunto de instrucciones que se encuentran acotadas por un bloque repetitivo de acciones indicadas a través de comandos indicadas en el lenguaje Python. Las instrucciones por excelencia en este lenguaje pertenecen a los bloques *for* y *while*. Estos bloques poseen indentación para reconocer el bloque como tal.
 
-Cuando iteramos sobre diccionarios, se pueden obtener al mismo tiempo la clave y su valor correspondiente usando el método *iteritems()*
+Cuando iteramos sobre diccionarios, se pueden obtener al mismo tiempo la clave y su valor correspondiente usando el método *iteritems()* en python2, e *items()* en python3
 .
 Cuando se itera sobre una secuencia, se puede obtener el índice de posición junto a su valor correspondiente usando la función *enumerate()*
 .
