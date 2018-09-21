@@ -55,7 +55,34 @@ Hay tres formas que pueden ser combinada:
  *Lista de argumentos arbitrarios*
 
 
+Todos los ejemplos compartían algo en común: realizaban una tarea concreta (presentar información en pantalla), pero no devolvían ningún valor al ser invocadas.
 
+##info issues
+Ya conoces algunas funciones en Python que devuelven valores. Por ejemplo, recuerda la función int(), que convertía una cadena de caracteres en un número entero, o la función len(), que devolvía la longitud de una cadena.
+
+Los valores que devuelven las funciones pueden ser capturados y esto típicamente se hace asignando una variable, pudiendo formar parte de una expresión numérica.
+
+longitud = len('La casa de la pradera')
+
+Esta instrucción asignaría el valor numérico 21 a la variable longitud.
+
+Los valores que devuelven las funciones no tienen que ser necesariamente numéricos.
+
+Voy a mostrarte cómo hacer para que una función devuelva un valor. Crearemos una que admita como argumento un número natural y que devuelva la suma de todos los naturales que hay hasta él inclusive. Es decir, si, por ejemplo, le facilitamos como argumento un 5, nos devuelva la suma:
+
+1 + 2 + 3 + 4 + 5 = 15
+
+Podríamos hacer un algoritmo para realizar el cálculo empleando un bucle, pero no va ser necesario. Si recordáis las enseñanzas en la escuela, hay una fórmula directa para calcular la suma de todos los términos de una progresión aritmética de diferencia uno:
+
+sp=\frac{n(n+1)}{2}
+
+Ya estamos en condiciones de crear nuestra función:
+
+Abre IDLE o el intérprete interactivo y escribe el siguiente código:
+
+>>> def sumaprogresion(n):
+       sp=n*(n+1)//2
+       return sp
 
 
 
