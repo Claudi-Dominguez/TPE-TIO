@@ -32,6 +32,32 @@ Para iterar sobre una secuencia en orden inverso, se especifica primero la secue
 Para iterar sobre una secuencia ordenada, se utiliza la función *sorted()* la cual devuelve una nueva lista ordenada dejando a la original intacta.
 
 
+##Funciones, definicion:
+
+La ejecución de una función introduce una nueva tabla de símbolos usada para las variables locales de la función. Más precisamente, todas las asignaciones de variables en la función almacenan el valor en la tabla de símbolos local; así mismo la referencia a variables primero mira la tabla de símbolos local, luego en la tabla de símbolos local de las funciones externas, luego la tabla de símbolos global, y finalmente la tabla de nombres predefinidos. 
+
+Así, no se les puede asignar directamente un valor a las variables globales dentro de una función (a menos se las nombre en la sentencia global), aunque si pueden ser referenciadas.
+La primer sentencia del cuerpo de la función puede ser opcionalmente una cadena de texto literal; esta es la cadena de texto de ocumentación de la *función* o *docstring* (cadena de documentaciòn).
+
+Los parámetros reales (argumentos) de una función se introducen en la tabla de símbolos local de la función llamada cuando esta es ejecutada; así, los argumentos son pasados por valor (dónde el valor es siempre una referencia a un objeto, no el valor del objeto).
+Cuando una función llama a otra función, una nueva tabla de símbolos local es creada para esa llamada.
+La definición de una función introduce el nombre de la función en la tabla de símbolos actual.
+
+La palabra reservada *def* se usa para *definir funciones*. Debe seguirle el nombre de la función y la lista de parámetros formales entre paréntesis. Las sentencias que forman el cuerpo de la función empiezan en la línea siguiente, y deben estar con sangría.
+
+También es posible definir funciones con un número variable de argumentos. 
+Hay tres formas que pueden ser combinada:
+
+*Argumentos con valores por omiciòn*
+     
+ *Palabras claves como argumento*
+
+ *Lista de argumentos arbitrarios*
+
+
+
+
+
 
 
 Bibliografía:
