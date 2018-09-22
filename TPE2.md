@@ -32,7 +32,21 @@ Para iterar sobre una secuencia en orden inverso, se especifica primero la secue
 Para iterar sobre una secuencia ordenada, se utiliza la función *sorted()* la cual devuelve una nueva lista ordenada dejando a la original intacta.
 
 
-##Funciones, definicion:
+##Elementos del lenguaje: 
+
+Python fue diseñado para ser leído con facilidad. Una de sus características es el uso de palabras donde otros lenguajes utilizarían símbolos. Por ejemplo, los operadores lógicos ! , | | y &&, en Python se escriben not, or y and, respectivamente. Curiosamente el lenguaje Pascal es junto con COBOL uno de los lenguajes con muy clara sintaxis y ambos son de la década del 70. La idea del código claro y legible no es algo nuevo.El contenido de los bloques de código (bucles, funciones, clases, etc.) es delimitado mediante espacios o tabuladores, conocidos como indentación, antes de cada línea de órdenes pertenecientes al bloque. Python se diferencia así de otros lenguajes de programación que mantienen como costumbre declarar los bloques mediante un conjunto de caracteres, normalmente entre llaves {}.​ Se pueden utilizar tanto espacios como tabuladores para indentar el código, pero se recomienda no mezclarlos.
+
+**Uso de variables**: Las variables se definen de forma dinámica, lo que significa que no se tiene que especificar cuál es su tipo de antemano y puede tomar distintos valores en otro momento, incluso de un tipo diferente al que tenía previamente. Se usa el símbolo = para asignar valores.
+**Condicionales**: Una sentencia condicional (if) ejecuta su bloque de código interno sólo si se cumple cierta condición. Se define usando la palabra clave if seguida de la condición, y el bloque de código. Condiciones adicionales, si las hay, se introducen usando elif seguida de la condición y su bloque de código. Todas las condiciones se evalúan secuencialmente hasta encontrar la primera que sea verdadera, y su bloque de código asociado es el único que se ejecuta. Opcionalmente, puede haber un bloque final (la palabra clave else seguida de un bloque de código) que se ejecuta sólo cuando todas las condiciones fueron falsas.
+**Bucle for**: El bucle for es similar a foreach en otros lenguajes. Recorre un objeto iterable, como una lista, una tupla o un generador, y por cada elemento del iterable ejecuta el bloque de código interno. Se define con la palabra clave for seguida de un nombre de variable, seguido de in, seguido del iterable, y finalmente el bloque de código interno. En cada iteración, el elemento siguiente del iterable se asigna al nombre de variable especificado.
+**Bucle while**: El bucle while evalúa una condición y, si es verdadera, ejecuta el bloque de código interno. Continúa evaluando y ejecutando mientras la condición sea verdadera. Se define con la palabra clave while seguida de la condición, y a continuación el bloque de código interno
+**Listas y tuplas**: Para declarar una lista se usan los corchetes [], en cambio, para declarar una tupla se usan los paréntesis (). En ambas los elementos se separan por comas, y en el caso de las tuplas es necesario que tengan como mínimo una coma.
+Tanto las listas como las tuplas pueden contener elementos de diferentes tipos. No obstante las listas suelen usarse para elementos del mismo tipo en cantidad variable mientras que las tuplas se reservan para elementos distintos en cantidad fija.
+Para acceder a los elementos de una lista o tupla se utiliza un índice entero (empezando por "0", no por "1"). Se pueden utilizar índices negativos para acceder elementos a partir del final.
+Las listas se caracterizan por ser mutables, es decir, se puede cambiar su contenido en tiempo de ejecución, mientras que las tuplas son inmutables ya que no es posible modificar el contenido una vez creada.
+**Conjuntos**: Los conjuntos se construyen mediante set(items) donde items es cualquier objeto iterable, como listas o tuplas. Los conjuntos no mantienen el orden ni contienen elementos duplicados.
+Se suelen utilizar para eliminar duplicados de una secuencia, o para operaciones matemáticas como intersección, unión, diferencia y diferencia simétrica.
+**Funciones**: definicion:
 
 La ejecución de una función introduce una nueva tabla de símbolos usada para las variables locales de la función. Más precisamente, todas las asignaciones de variables en la función almacenan el valor en la tabla de símbolos local; así mismo la referencia a variables primero mira la tabla de símbolos local, luego en la tabla de símbolos local de las funciones externas, luego la tabla de símbolos global, y finalmente la tabla de nombres predefinidos. 
 
@@ -114,3 +128,5 @@ El operador in, nos permitirá conocer si un elemento se encuentra dentro de una
 Bibliografía:
 http://docs.python.org.ar/tutorial/pdfs/TutorialPython2.pdf
 http://docs.python.org.ar/tutorial/2/datastructures.html
+https://es.wikipedia.org/wiki/Python
+https://librosweb.es/libro/python/capitulo-2/estructuras-de-control-de-flujo.html
