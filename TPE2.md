@@ -122,6 +122,45 @@ if nombre_de_la_funcion in locals():
 
 El operador in, nos permitirá conocer si un elemento se encuentra dentro de una colección, mientras que la función callable() nos dejará saber si esa función puede ser llamada.
 
+## Impresiones de pantalla
+Opción 1
+
+El primero de ellos es PyAutoGUI, un módulo multiplataforma para automatizar tareas. Podemos capturar la pantalla con tres líneas de código.
+
+    import pyautogui
+    # Capturar pantalla.
+    screenshot = pyautogui.screenshot()
+    # Guardar imagen.
+    screenshot.save("screenshot.png")
+
+PyAutoGUI utiliza internamente Pillow, una de las librerías de manejo de imagenes más populares del lenguaje, por lo que screenshot es una instancia de PIL.Image.Image.
+
+    # Mostrar imagen.
+    screenshot.show()
+
+Para capturar únicamente una porción de la pantalla, empleamos el parámetro region, una tupla con la estructura (X, Y, Ancho, Alto).
+
+    # Capturar una porción de la pantalla.
+    screenshot = pyautogui.screenshot(region=(50, 50, 400, 300))
+
+La forma más sencilla de instalar el módulo junto a todas sus dependencias es vía pip.
+
+pip install pyautogui
+
+Para poder ejecutar correctamente PyAutoGUI en Linux, además, deben instalarse las siguientes dependencias.
+Opción 2
+
+Otro paquete similar a PyAutoGUI es AutoPy, un toolkit de automatización plataforma escrito en C. Su API es mucho más elegante, simple y agradable que la del módulo anterior, pero por el momento soporta únicamente Python 2 (razón por la cual pasa a ser la opción número dos).
+
+Capturar la pantalla es igualmente de sencillo:
+
+    import autopy
+    screenshot = autopy.bitmap.capture_screen()
+    screenshot.save("screenshot.png")
+
+La función capture_screen puede tomar una región determinada de la pantalla, con la estructura ((X, Y), (Ancho, Alto)).
+
+    screenshot = autopy.bitmap.capture_screen(((50, 50), (400, 300)))
 
 
 
